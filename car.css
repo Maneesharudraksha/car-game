@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+#back{
+    background-image: url("cityimage.jpg");
+    height: 520px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+#road{
+    background-image: url("roadimage2.jpg");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#car{
+    height: 130px;
+    margin-top: 20px;
+}
+#btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn1{
+    background-color: rgb(125, 216, 155);
+    margin-top: 60px;
+    margin-right: 40px;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 24px;
+    border: none;   
+    cursor: pointer; 
+}
+#btn2{
+    background-color: rgb(240, 114, 114);
+    margin-top: 60px;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+#btn1:active{
+    font-size: 20px;
+}
+#btn2:active{
+    font-size: 20px;
+}
